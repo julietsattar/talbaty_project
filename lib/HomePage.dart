@@ -89,14 +89,6 @@ class _HomePageState extends State<HomePage> {
                             height: 25,width: 75,
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(8),
-                              color: Colors.red.withOpacity(0.8),
-                          ),
-                            child: Padding(padding: EdgeInsets.only(left: 28, top: 5),child: Text("الكل", style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold, fontSize: 10),),),
-                          ),
-                          Container(
-                            height: 25,width: 75,
-                            decoration: BoxDecoration(
-                              borderRadius: BorderRadius.circular(8),
                               color: Colors.grey.withOpacity(0.2),
                             ),
                             child: Padding(padding: EdgeInsets.only(left: 22, top: 5),child: Text("خصومات", style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold, fontSize: 10),),),
@@ -124,6 +116,14 @@ class _HomePageState extends State<HomePage> {
                               color: Colors.grey.withOpacity(0.2),
                             ),
                             child: Padding(padding: EdgeInsets.only(left: 28, top: 5),child: Text("حصري", style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold, fontSize: 10),),),
+                          ),
+                          Container(
+                            height: 25,width: 75,
+                            decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(8),
+                              color: Colors.red.withOpacity(0.8),
+                            ),
+                            child: Padding(padding: EdgeInsets.only(left: 28, top: 5),child: Text("الكل", style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold, fontSize: 10),),),
                           ),
                         ],
                       ),
@@ -173,8 +173,185 @@ class _HomePageState extends State<HomePage> {
                     )
                 ],
               ),
+                  SizedBox(height: 15,),
+
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Images2(Image2: "Images/984baa0f79b97f026340ba3fed87ce86_w750_h500.jpg")
+                    ],
+                  ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: [
+                  Text("سعر التوصيل:4,500 د.ع"),
+                  SizedBox(width: 10,),
+                  Text("مندي ابو فيصل",style: TextStyle(color: Colors.red, fontWeight: FontWeight.bold, fontSize: 15),),
+                ],
+              ),
+              SizedBox(height: 10,),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: [
+                  Column(
+                    children: [
+                      Row(
+                        children: [
+                          Text("الداوودي"),
+                          Icon(Icons.location_on, size: 15,)
+                        ],
+                      )
+                    ],
+                  ),
+                  SizedBox(width: 10,),
+                  Column(
+                    children: [
+                      Text("جيد جدا"),
+                    ],
+                  )
+                ],
+              ),
+              SizedBox(height: 10,),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Images2(Image2: "Images/chili_house_iq_baghdad_burger_burger.jpg")
+                    ],
+                  ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: [
+                  Text("سعر التوصيل:4,500 د.ع"),
+                  SizedBox(width: 10,),
+                  Text("بركر ميكرز",style: TextStyle(color: Colors.red, fontWeight: FontWeight.bold, fontSize: 15),),
+                ],
+              ),
+              SizedBox(height: 10,),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: [
+                  Column(
+                    children: [
+                      Row(
+                        children: [
+                          Text("الداوودي"),
+                          Icon(Icons.location_on, size: 15,)
+                        ],
+                      )
+                    ],
+                  ),
+                  SizedBox(width: 10,),
+                  Column(
+                    children: [
+                      Text("جيد جدا"),
+                    ],
+                  )
+                ],
+              ),
+              SizedBox(height: 10,),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Images2(Image2: "Images/download.jpg")
+                    ],
+                  ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: [
+                  Text("سعر التوصيل:4,500 د.ع"),
+                  SizedBox(width: 10,),
+                  Text("شاورما احلى زلمة 4",style: TextStyle(color: Colors.red, fontWeight: FontWeight.bold, fontSize: 15),),
+                ],
+              ),
+              SizedBox(height: 10,),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: [
+                  Column(
+                    children: [
+                      Row(
+                        children: [
+                          Text("الداوودي"),
+                          Icon(Icons.location_on, size: 15,)
+                        ],
+                      )
+
+                    ],
+                  ),
+                  SizedBox(width: 10,),
+                  Column(
+                    children: [
+                      Text("جيد جدا"),
+                    ],
+                  )
+                ],
+              ),
+              SizedBox(height: 10,),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Images2(Image2: "Images/download11.jpg")
+                ],
+              ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: [
+                  Text("سعر التوصيل:4,500 د.ع"),
+                  SizedBox(width: 10,),
+                  Text("بيتزا هيلين",style: TextStyle(color: Colors.red, fontWeight: FontWeight.bold, fontSize: 15),),
+                ],
+              ),
+              SizedBox(height: 10,),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: [
+                  Column(
+                    children: [
+                      Row(
+                        children: [
+                          Text("الداوودي"),
+                          Icon(Icons.location_on, size: 15,)
+                        ],
+                      )
+                    ],
+                  ),
+                  SizedBox(width: 10,),
+                  Column(
+                    children: [
+                      Text("جيد جدا"),
+                    ],
+                  )
+                ],
+              ),
+
             ],
     )
+        ],
+      ),
+
+
+      bottomNavigationBar: BottomNavigationBar(
+        items: [
+          BottomNavigationBarItem(
+              icon: Icon(Icons.person_pin, color: Colors.black,),
+              backgroundColor: Colors.white,
+              label: "الحساب"
+          ),
+          BottomNavigationBarItem(
+              icon: Icon(Icons.account_balance_wallet_outlined, color: Colors.black,),
+              backgroundColor: Colors.white,
+              label: "المحفظة"
+          ),
+          BottomNavigationBarItem(
+              icon: Icon(Icons.list_alt, color: Colors.black,),
+              backgroundColor: Colors.white,
+              label: "الطلبات"
+          ),
+          BottomNavigationBarItem(
+              icon: Icon(Icons.home, color: Colors.red,),
+              backgroundColor: Colors.white,
+              label: "الرئيسية",
+          ),
         ],
       ),
     );
@@ -239,5 +416,45 @@ Row Images ({ required String Image2,})
       ],
     );
 }
-  
-  }
+  Row Images2 ({ required String Image2,})
+  {
+    return Row(
+      children: [
+        Stack(
+          children: [
+            Container(
+              height: 175,width: 425,
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(15),
+                color: Colors.white,
+                image: DecorationImage(
+                    image: AssetImage(Image2),
+                    fit: BoxFit.fill),
+              ),
+            ),
+            Row(
+              children: [
+                Container(
+                    height:20,width: 50,
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(5),
+                      color: Colors.white,
+                    ),
+                    child:  Padding(padding: EdgeInsets.only(left: 10, top: 6),child: Text("بروموكود", style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold, fontSize: 8),),)
+                ),
+                SizedBox(width: 5,),
+                Container(
+                    height:20,width: 35,
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(5),
+                      color: Colors.white,
+                    ),
+                    child:  Icon(Icons.delivery_dining, size: 15,)
+                ),
+              ],
+            )
+          ],
+        )
+      ],
+    );
+  }}
